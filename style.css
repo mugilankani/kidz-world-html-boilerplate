@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-image {
+  width: 100px;
+  padding: 20px 0 12px 20px;
+}
+
+.kw-background {
+  height: 70vh;
+  width: 98vw;
+}
+
+.kw-back {
+  height: 500px;
+}
+
+.cart-icon {
+  width: 25px;
+  height: 25px;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+.cart-purchase {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+}
+.head-line {
+  position: relative;
+  top: -350px;
+  left: 90px;
+  font-size: 28px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50vw;
+}
+.head-line4 {
+  font-size: 16px;
+}
+.books {
+  width: 152px;
+  height: 300px;
+}
+.book-img {
+  width: 150px;
+}
+.new-books {
+  display: flex;
+  margin: 0px 40px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  /* background-color: gray; */
+  height: 370px;
+  /* padding: 10px 0; */
+}
+.add-cart {
+  width: 20px;
+}
+.button {
+  background-color: rgb(54, 128, 238);
+  color: white;
+  text-align: center;
+}
+.price-tag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.author {
+  color: #555;
+  padding: 0;
+  margin: 0;
+}
+.book-tittle {
+  margin: 0;
+  padding: 0;
+}
+.book-tittle {
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+.description {
+  margin: 0;
+  padding: 0;
+}
+.book1 {
+  margin-bottom: 0;
+}
+.books {
+  height: 320px;
+}
+.tittle {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  margin-left: 60px;
+}
+.new-games {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 10px;
+}
+.game-img {
+  width: 225px;
+}
+.button {
+  border: none;
+  border-radius: 4px;
+}
+
+.profile-img {
+  width: 120px;
+  border-radius: 50px;
+  /* text-align: center; */
+  /* position: relative; */
+  /* top: -100px;
+  left: 60px; */
+}
+/* .by{
+  position: relative;
+  top: -240px;
+  color: white;
+  left: 60px;
+}
+
+.name{
+  position: relative;
+  top: -270px;
+  color: white;
+  left: 1100px; 
+}*/
+/* .name1{
+  left: 1259px;
+}
+.name2{
+  left: 1130px;
+}
+footer{
+  height: 160px;
+} */
+/* .button:hover{
+  background-color: rgb(14, 15, 17);;
+} */
+/* footer{
+  background-color: black;
+  display: flex;
+} */
+.foot {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  align-items: center;
+}
+.foot div {
+  color: white;
+}
+.name {
+  text-align: right;
+}
+
+@media screen and (max-width:430px) {
+  
+
+  .new-books{
+    display: grid;
+    grid-template-columns:200px;
+    /* grid-column-gap: wrap; */
+    justify-content: center;
+    /* width: 100px; */
+    /* height: 100px; */
+    padding: 0;
+    margin-left: 0px;
+    margin-bottom: 1650px;
+
+  }
+  .tittle{
+    margin-left: 0;
+    font-size: small;
+    /* margin-top: 200px; */
+  }
+  .cart-purchase{
+    padding: 0;
+    margin: 0;
+    
+  }
+  .new-books{
+    margin-right: 40px;
+  }
+
+  .kw-background, .kw-back{
+    height: auto;
+    width: 85%;
+    /* display: none; */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .navbar{
+    width: 100%;
+    margin-bottom: 10px;
+    /* padding-right: -40px; */
+    
+  }
+  .head-line{
+    top: -97px;
+    left: 20px;
+    font-size: 8px;
+    position: relative;
+    color: white;
+  }
+  /* .tittle{
+    display: none;
+
+  } */
+  .new-games{
+    display: none;
+  }
+  /* .foot{
+    display: ;
+  } */
+  /* body{
+    border: 2px solid black;
+  } */
+  .navbar{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    /* padding-bottom: 1000px; */
+  }
+  .logo-image{
+    width: 20vw;
+  }
+  .new-games{
+    display: grid;
+    grid-template-columns: 200px;
+    padding: 0;
+    margin: 0;
+  }
+  .game-img{
+    width: 180px;
+  }
+  .games{
+    margin-left: -35px;
+
+    width: 180px;
+  }
+  .foot{
+    width:250px;
+    display: grid;
+    grid-template-columns: 100px 150px;
+    margin-left: -20px;
+  }
+  .profile-img{
+    width: 60px;
+    border-radius: 50px;
+  }
+  .name{
+    font-size: 10px;
+  }
+  
+}
